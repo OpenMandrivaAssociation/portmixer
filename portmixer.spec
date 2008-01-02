@@ -12,6 +12,7 @@ Source0:	%{name}_v18_1.tar.bz2
 Patch0:		portmixer_v18_1-mdk.diff
 BuildRequires:	file
 BuildRequires:	libportaudio-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 PortMixer is intended to work side-by-side with PortAudio,
