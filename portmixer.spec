@@ -4,7 +4,7 @@
 Summary:	Shared PortMixer library
 Name:		portmixer
 Version:	18.1
-Release:	%mkrel 6
+Release:	%mkrel 7
 License:	BSD
 Group:		System/Libraries
 URL:		http://www.portaudio.com/
