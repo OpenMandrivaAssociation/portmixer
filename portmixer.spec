@@ -112,3 +112,41 @@ EOF
 %{_libdir}/*.so
 %{_libdir}/*.a
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tvignaud@mandriva.com> 18.1-8mdv2010.0
++ Revision: 430765
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tvignaud@mandriva.com> 18.1-7mdv2009.0
++ Revision: 259228
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tvignaud@mandriva.com> 18.1-6mdv2009.0
++ Revision: 247142
+- rebuild
+
+  + Pixel <pixel@mandriva.com>
+    - do not call ldconfig in %%post/%%postun, it is now handled by filetriggers
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 18.1-4mdv2008.1
++ Revision: 140735
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import portmixer
+
+
+* Sun Sep 17 2006 Oden Eriksson <oeriksson@mandriva.com> 18.1-4mdv2007.0
+- rebuild
+
+* Mon Feb 13 2006 Oden Eriksson <oeriksson@mandriva.com> 18.1-3mdk
+- new snap (20060212)
+
+* Sun Apr 10 2005 Oden Eriksson <oeriksson@mandrakesoft.com> 18.1-2mdk
+- fix deps
+
+* Sun Apr 10 2005 Oden Eriksson <oeriksson@mandrakesoft.com> 18.1-1mdk
+- initial package
