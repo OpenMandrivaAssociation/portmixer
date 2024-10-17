@@ -7,7 +7,7 @@ Version:	18.1
 Release:	9
 License:	BSD
 Group:		System/Libraries
-URL:		http://www.portaudio.com/
+URL:		https://www.portaudio.com/
 Source0:	%{name}_v18_1.tar.bz2
 Patch0:		portmixer_v18_1-mdk.diff
 BuildRequires:	file
