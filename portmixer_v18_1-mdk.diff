@@ -4,7 +4,7 @@ diff -Naur portmixer_v18_1/Makefile portmixer_v18_1.oden/Makefile
 @@ -0,0 +1,27 @@
 +# Make PortMixer Library for Unix / OSS
 +
-+CC = gcc
++CC = clang
 +CFLAGS = $(RPM_OPT_FLAGS) -Ipx_common
 +PASRC = px_unix_oss/px_unix_oss.c
 +PAINC = px_common/portmixer.h
