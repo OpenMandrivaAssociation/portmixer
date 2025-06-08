@@ -2,32 +2,31 @@
 %define		libname	%mklibname portmixer %{major}
 %define		devname %mklibname portmixer -d
 
-Summary:		Shared PortMixer library
+Summary:	Shared PortMixer library
 Name:		portmixer
-Version:		18.1
-Release:		10
-License:		BSD
+Version:	18.1
+Release:	10
+License:	BSD
 Url:		https://www.portaudio.com/
-Group:		Sound
+Group:	Sound
 # No more available at $URL: use stored sources
 Source0:	%{name}_v18_1.tar.bz2
-Patch0:		portmixer_v18_1-mdk.diff
-BuildRequires:		file
-BuildRequires:		pkgconfig(portaudio-2.0)
+Patch0:	portmixer_v18_1-mdk.diff
+BuildRequires:	file
+BuildRequires:	pkgconfig(portaudio-2.0)
 
 %description
-PortMixer is intended to work side-by-side with PortAudio, the Portable
+This library is intended to work side-by-side with PortAudio, the Portable
 Real-Time Audio Library by Ross Bencina and Phil Burk.
 
 #-----------------------------------------------------------------------------
 
 %package -n	%{libname}
-Summary:		Shared PortMixer library
-Group:		System/Libraries
-Provides:	%{_lib}portmidi = %{version}-%{release} 
+Summary:	Shared PortMixer library
+Group:	System/Libraries
 
 %description -n	%{libname}
-PortMixer is intended to work side-by-side with PortAudio, the Portable
+This library is intended to work side-by-side with PortAudio, the Portable
 Real-Time Audio Library by Ross Bencina and Phil Burk.
 This package contains the main library.
 
@@ -47,7 +46,7 @@ Requires:	pkgconfig(portaudio-2.0)
 %rename	%{libname}-devel
 
 %description -n	%{devname}
-PortMixer is intended to work side-by-side with PortAudio, the Portable
+This library is intended to work side-by-side with PortAudio, the Portable
 Real-Time Audio Library by Ross Bencina and Phil Burk.
 This package contains the development library and the API Header File.
 
