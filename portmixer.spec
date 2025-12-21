@@ -12,6 +12,7 @@ Group:	Sound
 # No more available at $URL: use stored sources
 Source0:	%{name}_v18_1.tar.bz2
 Patch0:	portmixer_v18_1-mdk.diff
+BuildRequires:	make
 BuildRequires:	file
 BuildRequires:	pkgconfig(portaudio-2.0)
 
